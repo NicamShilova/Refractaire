@@ -1,0 +1,21 @@
+# sklearn_elasticnet_wine/MLproject
+
+name: reconnaissance d'objets
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+    epoch:  {type: float, default: 35.0}
+    conv:  {type: float, default: 32.0}
+    loss:  {type: string, default: ""}
+    accuracy:  {type: string, default: ""}
+    prediction:  {type: string, default: ""}
+    identification:  {type: string, default: ""}
+    command: "python model.ipynb {epoch} {conv} {loss} {accuracy} {prediction} {identification}"
+      # loss: {type: string, default: ""}
+      # accuracy: {type: string, default: ""}
+      # prediction: {type: string, default: ""}
+      # identification: {type: string, default: ""}
+      # command: "python model.ipynb {loss} {accuracy} {prediction} {identification}"
