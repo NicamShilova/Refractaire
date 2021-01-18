@@ -1,5 +1,3 @@
-# sklearn_elasticnet_wine/MLproject
-
 name: reconnaissance d'objets
 
 conda_env: conda.yaml
@@ -14,8 +12,3 @@ entry_points:
     prediction:  {type: string, default: ""}
     identification:  {type: string, default: ""}
     command: "python model.ipynb {epoch} {conv} {loss} {accuracy} {prediction} {identification}"
-      # loss: {type: string, default: ""}
-      # accuracy: {type: string, default: ""}
-      # prediction: {type: string, default: ""}
-      # identification: {type: string, default: ""}
-      # command: "python model.ipynb {loss} {accuracy} {prediction} {identification}"

@@ -24,6 +24,10 @@ Matplotlib
 
 Cifar-10
 
+Scikit-learn
+
+MLflow
+
 
 ### Installation
 
