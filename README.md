@@ -52,3 +52,9 @@ Dans vscode, charger la classe model.ipynb
 Charger d'abord l'environnement
 
 Cliquer sur la double flèche pour tout exécuter
+
+Dans le shell, aller dans le dossier du projet
+
+Executer MSflow ui
+
+Dans un navigateur, aller à l'adresse : http://localhost:5000/#/
